@@ -135,7 +135,7 @@ def train_one_epoch(gan: dict[str, nn.Module],
 
         writer.add_scalar('fakes accuracy on discriminator', correct_n/fake_out.shape[0], step_counter)
 
-        # writer.add_scalar('gen cosine loss', clip_loss, step_counter)
+        writer.add_scalar('gen cosine loss', clip_loss, step_counter)
         writer.add_scalar('gen loss', gen_loss, step_counter)
 
         # print('gen loss', gen_loss)
