@@ -4,6 +4,7 @@ weights/
 data/
 runs/
 runs_t2f/
+t2f_data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
