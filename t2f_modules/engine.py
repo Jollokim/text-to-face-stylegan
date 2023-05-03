@@ -115,9 +115,9 @@ def train_one_epoch(gan: dict[str, nn.Module],
 
         gen_loss = generator_loss(fake_out)
 
-        # clip_loss = clip_crit(descriptions, fake)
+        clip_loss = clip_crit(descriptions, fake)
 
-        # gen_loss = gen_loss + clip_loss
+        gen_loss = gen_loss + clip_loss
 
         # Add path length penalty
         if (step_counter % lazy_path_penalty_interval) == 0:
