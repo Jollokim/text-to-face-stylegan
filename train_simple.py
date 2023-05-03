@@ -44,7 +44,7 @@ def get_args_parser():
     # training
     parser.add_argument('--batch_size', type=int, default=64,
                         help='')
-    parser.add_argument('--epochs', type=int, default=300,
+    parser.add_argument('--epochs', type=int, default=400,
                         help='')
     
     # logging
@@ -52,7 +52,7 @@ def get_args_parser():
                         help='')
     parser.add_argument('--overwrite', action='store_true',
                         help='')
-    parser.add_argument('--save_every', type=int, default=100,
+    parser.add_argument('--save_every', type=int, default=10,
                         help='')
     
     

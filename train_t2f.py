@@ -39,13 +39,13 @@ def get_args_parser():
     # training
     parser.add_argument('--batch_size', type=int, default=64,
                         help='')
-    parser.add_argument('--epochs', type=int, default=300,
+    parser.add_argument('--epochs', type=int, default=400,
                         help='')
 
     # logging
     parser.add_argument('--name', type=str, default='test_t2f_clip',
                         help='')
-    parser.add_argument('--overwrite', action='store_false',
+    parser.add_argument('--overwrite', action='store_Talse',
                         help='')
     parser.add_argument('--save_every', type=int, default=10,
                         help='')
