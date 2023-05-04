@@ -45,7 +45,7 @@ def get_args_parser():
     # logging
     parser.add_argument('--name', type=str, default='test_t2f_clip',
                         help='')
-    parser.add_argument('--overwrite', action='store_Talse',
+    parser.add_argument('--overwrite', action='store_false',
                         help='')
     parser.add_argument('--save_every', type=int, default=10,
                         help='')
