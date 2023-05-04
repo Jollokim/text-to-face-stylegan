@@ -82,11 +82,11 @@ tensorboard-plugin-wit==1.8.1
 threadpoolctl==3.1.0
 tokenizers==0.12.1
 tomli==2.0.1
-torch==2.0.0+cu118
+torch==2.0.0
 torch-tb-profiler==0.4.1
-torchaudio==2.0.1+cu118
+torchaudio==2.0.1
 torchmetrics==0.11.0
-torchvision==0.15.1+cu118
+torchvision==0.15.1
 tornado==6.2
 tqdm==4.64.0
 traitlets==5.9.0
